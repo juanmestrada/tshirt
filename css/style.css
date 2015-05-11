@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	overflow: auto;
+}
+
+div {}
+
+p {
+    display: block;
+    font-size: 22px;
+}
+
+span {
+    position: absolute;
+    color: #99CCFF;
+    right: 0px;
+    font-size: 22px;
+}
+
+.toolbar {
+	overflow: auto;
+	border-top:2px solid #99CCFF;
+}
+
+.details {
+    position: absolute;
+    top: 100%;
+    color: #99CCFF;
+    text-align: left;
+    width: 100%;
+}
+
+.inner {
+    width: 100%;
+    height: 300px;
+    top: 25%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.inner:hover {
+    background: url(http://www.clker.com/cliparts/5/b/f/3/11971250811465945259youngheart80_DigitaLink_Blank_T-Shirt_2.svg.hi.png);
+    background-size: cover;
+    transition: .75s ease;
+}
+.content {
+    border: 3px solid #99CCFF;
+    float: left;
+    position: relative;
+    width: 25%;
+    margin-top: 10%;
+    margin-left: 5%;
+    }
+
+#left {
+    background: url(http://i58.tinypic.com/vncnpx.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#left:hover {
+    background: url(http://i59.tinypic.com/dwyvpd.jpg) no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: .75s ease;
+}
+#middle {
+    background: url(http://www.lunabe.com/wp-content/uploads/2014/07/web_developer_t-shirt_black-150x150.jpg)no-repeat;
+    background-size: contain;
+}
+#middle:hover {
+    background: url(http://i60.tinypic.com/f4lcaf.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: .75s ease;
+}
+#right {
+    background: url(http://i57.tinypic.com/2ywh9bn.jpg) no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+#right:hover {
+    background: url(http://i60.tinypic.com/2nhzssg.jpg) no-repeat;
+    background-size: contain;
+    transition: .75s ease;
+}
+.square {
+    display: inline-block;
+    border: 2px solid #99CCFF;
+    border-bottom: none;
+    border-left:none;
+    width: 20%;
+    height: 50px;
+    float: left;
+}
+.square:hover {
+    background-color: #99CCFF;
+}
+
+#size p{
+	text-align: center;
+	text-align: middle;
+	top: 90px;
+}
+
+.hover-sizes{
+
+}
+
+
+
+#cart {
+    background-image: url(http://cdn.mysitemyway.com/etc-mysitemyway/icons/legacy-previews/icons/glossy-black-icons-business/080707-glossy-black-icon-business-cart5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    cursor: pointer;
+}
+button{
+	border:2px solid #99ccff;
+	border-right: none;
+	border-top:none;  
+	position: absolute;
+	background-color: white;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+
+
+
+
